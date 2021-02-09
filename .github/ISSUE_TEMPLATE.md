@@ -12,7 +12,7 @@ Make sure you are running the latest version of jotta-cli before reporting an is
 
 ```
 
-**Relevant logs for the issue (`cat ~/.jottad/jottabackup.log`)**
+**Relevant logs for the issue (`~/.jottad/jottabackup.log or /var/lib/jotta/jottabackup.log ` )**
 ```
 
 ```
