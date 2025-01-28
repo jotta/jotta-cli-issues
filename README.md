@@ -81,3 +81,12 @@ tar -czvf archive.tar.gz /tmp
 mv /tmp/jotta-cli /usr/local/bin/jotta-cli
 mv /tmp/jottad /usr/local/bin/jotta-cli
 ```
+
+### Using jottad on linux
+The package supplies init script for running jotta-cli in systemd user slice.
+For each user in the system that should run jotta-cli, enable it with: 
+```
+run_jottad
+```
+
+The daemon should now be started with user login.
