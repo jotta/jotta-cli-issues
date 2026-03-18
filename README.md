@@ -59,7 +59,7 @@ brew uninstall jotta-cli && brew install jotta-cli-unstable
 Add gpg key, add unstable repository, update apt and install from unstable repository:
 ```
 sudo apt-get install curl apt-transport-https ca-certificates
-sudo curl -fsSL https://repo.jotta.cloud/public.asc -o /usr/share/keyrings/jotta.gpg
+sudo curl -fsSL https://repo.jotta.cloud/jotta.gpg -o /usr/share/keyrings/jotta.gpg
 echo "deb [signed-by=/usr/share/keyrings/jotta.gpg] https://repo.jotta.cloud/debian unstable main" | sudo tee /etc/apt/sources.list.d/jotta-cli.list
 sudo apt-get update && apt install jotta-cli
 ```
