@@ -6,13 +6,11 @@ Please create issues for bugs or feature requests in this repository.
 
 ## Stable vs. unstable 
 
-### jotta-cli stable (NB still in beta!)
+### jotta-cli stable
 
 Jotta-cli is available on several platforms. There is more information about this [here](http://docs.jottacloud.com/jottacloud-command-line-tool) including instructions to install and update jotta-cli. Those instructions are all for the stable branch of jotta-cli.
 
 Builds for stable https://repo.jotta.us/archives/
-
-*Note: Jotta-cli stable is still considered a beta release for now.*
 
 ### jotta-cli unstable
 As of 12th October 2020, in preparation for releasing sync for jotta-cli, we also have an unstable branch of jotta-cli for more adventurous users. We will push changes and new features to this branch more frequently than to stable. 
