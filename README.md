@@ -13,7 +13,7 @@ Jotta-cli is available on several platforms. There is more information about thi
 Builds for stable https://repo.jotta.us/archives/
 
 ### jotta-cli unstable
-As of 12th October 2020, in preparation for releasing sync for jotta-cli, we also have an unstable branch of jotta-cli for more adventurous users. We will push changes and new features to this branch more frequently than to stable. 
+We also have an unstable branch of jotta-cli for more adventurous users. We will push changes and new features to this branch more frequently than to stable. 
 
 The main difference is that we will not document all changes to the unstable branch as we do with stable on https://docs.jottacloud.com and that some features might not be as complete as when they hit the stable branch. 
 
